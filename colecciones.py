@@ -60,11 +60,10 @@ if n1 > 5 :  #Se puede poner parentesis pero para más de un caso en la condici�
      print("Pois resulta")
      print("que ni é ")
      print("maior que 5")
+elif n1 == 0: # es como un else-if
+     print("n1 é ")
+     print("igual a 0")
 else:
-     if n1 == 0:
-          print("n1 é ")
-          print("igual a 0")
-     else:
-          print("Pois resulta")
-          print("Que ni é ")
-          print("menor que 5")
+     print("Pois resulta")
+     print("Que ni é ")
+     print("menor que 5")
