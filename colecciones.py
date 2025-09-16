@@ -96,3 +96,33 @@ while True:
           print ("False")
 
      n1 += 1
+
+## bucle for, como tal no hay pero podemos utilizar algo parecido "for ..  in ... : "
+
+numeros = [1,2,3,4,34566]
+
+print (numeros)
+
+suma = 0
+for numero in numeros: # llamar a colecciones en plural, consejo : elemento - colección
+                       # for in --- de la coleccion/tabla numeros me vas a dar un elemento estará en numero, que es el valor que acabo de crear
+     print (numero)
+     suma += numero
+
+print (suma)
+
+d= {1: "Un", 2: "Dous", 3:"Tres"}
+
+for clave in d:
+     print (d[clave])
+
+for indice in range(5):  # averiguar por range
+     print (indice)
+     print(numeros[indice])
+
+"""
+for (int i= 0; i<5; i++{
+     System.out.println (i);
+     System.out.println (numeros [i]);
+}
+"""
