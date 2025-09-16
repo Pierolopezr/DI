@@ -55,7 +55,9 @@ print (d[3])
 print(d)
 
 #Sentencias condicionales
-n1 = 3
+## if - elif (else if) else
+
+n1 = 2
 if n1 > 5 :  #Se puede poner parentesis pero para más de un caso en la condición
      print("Pois resulta")
      print("que ni é ")
@@ -67,3 +69,25 @@ else:
      print("Pois resulta")
      print("Que ni é ")
      print("menor que 5")
+
+# vehiculoTipo = (vehiculoId <= 3 ) ? "Auto" : "Moto" ;
+
+# vehiculo tipo é coche si n1 maior ou igual que 3 en caso contrario é unha moto
+
+vehiculoTipo = "Coche" if n1 <= 3 else "Moto"
+
+## while
+
+while n1 < 11:
+     print(n1)
+     n1+=1
+
+print("----------------")
+
+## do while -> No existe en python pero se puede hacer de esta manera
+n1 = 2
+while True:
+     print(n1)
+     n1+=1
+     if n1 == 10:
+          break
