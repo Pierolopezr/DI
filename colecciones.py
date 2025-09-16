@@ -116,7 +116,7 @@ d= {1: "Un", 2: "Dous", 3:"Tres"}
 for clave in d:
      print (d[clave])
 
-for indice in range(5):  # averiguar por range
+for indice in range(5):  # averiguar por range porfaa
      print (indice)
      print(numeros[indice])
 
