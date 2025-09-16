@@ -84,10 +84,13 @@ while n1 < 11:
 
 print("----------------")
 
-## do while -> No existe en python pero se puede hacer de esta manera
+## do while -> No existe en python pero se puede hacer de esta manera parecido
 n1 = 2
 while True:
      print(n1)
      n1+=1
      if n1 == 10:
+          print("True")
           break
+     else:
+          print ("False")
