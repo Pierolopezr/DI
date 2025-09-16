@@ -88,9 +88,11 @@ print("----------------")
 n1 = 2
 while True:
      print(n1)
-     n1+=1
+
      if n1 == 10:
           print("True")
           break
      else:
           print ("False")
+
+     n1 += 1
