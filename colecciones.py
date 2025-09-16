@@ -53,3 +53,18 @@ d= { 1: "Un",
 # d[3] = "Three" -> se puede reescribir
 print (d[3])
 print(d)
+
+#Sentencias condicionales
+n1 = 3
+if n1 > 5 :  #Se puede poner parentesis pero para más de un caso en la condición
+     print("Pois resulta")
+     print("que ni é ")
+     print("maior que 5")
+else:
+     if n1 == 0:
+          print("n1 é ")
+          print("igual a 0")
+     else:
+          print("Pois resulta")
+          print("Que ni é ")
+          print("menor que 5")
